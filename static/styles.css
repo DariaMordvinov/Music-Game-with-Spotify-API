@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(to right, #FFB5CE, #B5CEFF);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.information {
+   font-size: 30px;
+}
+
+.artist-row {
+    margin: auto;
+    max-width: 920px;
+}
+
+
+.artist-box {
+   position: relative;
+   margin-left: 10%;
+   cursor: pointer;
+}
+
+.artist_photo {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.artist_photo:hover, .artist_photo:active{
+   opacity: 1;
+}
+
+p.name {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 5px;
+    position: relative;
+    font-size: 20px;
+}
+
+.media-document {
+    margin: auto;
+}
+
+.correct, .incorrect, .correct_answer {
+    display: none;
+    font-size: 36px;
+}
+
+.correct {
+   color: #13C754;
+}
+
+.incorrect {
+   color: #E74C3C;
+}
+
+.bottomed {
+   bottom: 70px;
+   position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .artist_photo {
+        width: 200px;
+        height: 200px;
+    }
+}
