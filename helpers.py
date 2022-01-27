@@ -68,6 +68,7 @@ def make_options(artist_id):
 
     while len(options) < 4:
         artist = random.choice(others)
+        others.remove(artist)
         options.append(gameOption(SP.artist(artist)['name'], False, SP.artist(artist)['images'][0]['url']))
     del others
     random.shuffle(options)
