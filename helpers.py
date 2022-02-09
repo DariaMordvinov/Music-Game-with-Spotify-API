@@ -46,7 +46,7 @@ def get_track(artists):
         track_option = []
         for track in results['tracks'][:20]:
             if track['preview_url'] is not None:
-                track_option.append(track['preview_url'])
+                track_option.append((track['preview_url'], track['name']))
 
         if len(track_option) > 0:
             track = random.choice(track_option)
