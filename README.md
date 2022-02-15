@@ -5,7 +5,7 @@
 There is a 30-second song sample on the main page. User has to guess who plays the song. There are four options to choose from.
 User makes his choice by clicking on one of the options. The game will show the correct answer and say if the user was right. 
 
-Demo: https://youtu.be/CD0t5YVBrGc
+[Video Demo](https://youtu.be/CD0t5YVBrGc)
 
 To run this application you'll need Flask, spopipy python library, Bootstrap, JQuery and dotenv (for retrieving API key from the environment). You'll also need Spotify
 Client ID and Client Secret. You can find those on Spotify for developers Dashbord.
