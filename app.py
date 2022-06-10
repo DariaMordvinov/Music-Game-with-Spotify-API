@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from .helpers import make_options, make_artists, get_track
+from helpers import make_options, make_artists, get_track
 
 app = Flask(__name__)
 
