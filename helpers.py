@@ -3,12 +3,9 @@ import spotipy
 import os
 
 from spotipy.oauth2 import SpotifyClientCredentials
-from os.path import join, dirname
-from dotenv import load_dotenv
+from boto.s3.connection import S3Connection
 
 # Gets environment variables (secret token and id)
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
 MY_SPOTIFY_ID = os.environ.get("MY_SPOTIFY_ID")
 MY_SECRET = os.environ.get("MY_SECRET")
 
