@@ -1,5 +1,4 @@
 spotipy
 flask
-bootstrap
 dotenv
 os
